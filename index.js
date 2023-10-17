@@ -1,4 +1,4 @@
-function hasTargetSum(array, target) {
+ function hasTargetSum(array, target) {
   // Write your algorithm here
   for(let i = 0; i<array.length; i++){
     const complement = target-array[i];
